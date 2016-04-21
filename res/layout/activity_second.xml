@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/ImageButton03"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="fun"
+        android:src="@drawable/bg" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/ImageButton03"
+        android:onClick="fun"
+        android:src="@drawable/bg" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="fan"
+        android:text="返回首页" />
+
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/ImageButton03"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/ImageButton03"
+        android:onClick="fun"
+        android:src="@drawable/bg" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/ImageButton02"
+        android:layout_toRightOf="@+id/ImageButton03"
+        android:onClick="fun"
+        android:src="@drawable/bg" />
+
+</RelativeLayout>
